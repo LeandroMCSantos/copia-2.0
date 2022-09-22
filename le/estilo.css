@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #f5c88c;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #fc9362;
+    font-weight: bold;
+}
+
+.container h3{
+    margin: 10px;
+    background-color: #f59c38;
+    border-radius: 5px;
+    color:#752709
+  
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid #bd8a51;
+    margin-top: 80px;
+    margin: 10px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #f5c88c;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0,5rem;
+}
+button {
+border-radius: 5px;
+background-color: #cc6f05;
+color: #752709;
+font-family: Verdana;
+margin: 10px;
+margin-top: 0;
+margin-right: 0;
+
+}
+
+.botao{
+    display:flex ;
+    flex-direction: row;
+ 
+    gap: 10px;
+}
+
+input{
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 12px;
+    padding: 5px;
+    border: 2px solid  #f59c38;
+}
+
+#velocidade{
+background-color: #f59c38;
+
+}
+
+#resultado {
+    height: 200px;
+    border: 2px solid #f59c38;
+    margin: 10px;
+    border-radius: 10px;
+}

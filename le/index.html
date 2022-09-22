@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocidade Media</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+
+    <header>
+        <h1>Velocidade Media</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a onclick="irparahome()" href="index.html" class="active">Home</a></li>
+            <li><a onclick="irparasobre()" href="#">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h3>Cálculo</h3>
+        <input type="number" id="distancia" placeholder="Informe o valor do deslocamento">
+        <input type="number" id="tempo" placeholder="Informe o intervalo de tempo">
+       <div class="botao"> 
+        <button onclick="limpar()">Limpar</button>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+        <input disabled type="number" id="velocidade" placeholder="Velocidade Média">
+    </div>
+
+    <div class="container">
+        <h3>Resultado</h3>
+        <div id="resultado" rows="10"></div>
+
+    </div>
+
+
+    <footer>
+        <ul>
+            <br>Exemplo: Uma família viaja de São Paulo para o Rio de Janeiro, para passar as férias.</br>
+            <br> A viagem tem duração de 6 horas em um percurso de 435 km. Qual a velocidade média do automóvel?</br>
+            <br>Vm = 435 = 72.5 km/h</br>
+        </ul>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
